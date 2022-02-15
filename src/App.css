@@ -1,0 +1,22 @@
+.App {
+    display: grid;
+    place-items: center;
+}
+
+ul li,
+p {
+    list-style-type: none;
+    display: grid;
+    justify-items: flex-end;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+span {
+    font-weight: 400;
+    font-style: normal;
+}
+
+span::before {
+    content: " - ";
+}
