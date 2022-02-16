@@ -10,7 +10,7 @@ function Home({quotes}:Params){
     return(
         <>
           <RandomQuote/>
-            <Quotes quotes={quotes} />
+          <Quotes quotes={quotes} />
       
       </>
     )

@@ -5,7 +5,7 @@ import Quote from "./Quote"
 function RandomQuote(){
     const [randomQuote, setRandomQuote] = useState<QuoteType>()
     function getRandomQuote(){
-        fetch('http://localhost:4000/random-quote')
+        fetch('http://localhost:5000/random-quote')
         .then(resp => resp.json())
         .then(quote => setRandomQuote(quote))
     }

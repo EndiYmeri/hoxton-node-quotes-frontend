@@ -3,8 +3,9 @@
     place-items: center;
 }
 
-ul li.quote {
-    cursor: pointer;
+a {
+    color: black;
+    text-decoration: none;
 }
 
 .quote,

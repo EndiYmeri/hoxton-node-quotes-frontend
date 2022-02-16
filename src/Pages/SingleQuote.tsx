@@ -10,7 +10,7 @@ function SingleQuote(){
     const quoteID = Number(params.id)
 
     useEffect(()=>{
-        fetch(`http://localhost:4000/quotes/${quoteID}`)
+        fetch(`http://localhost:5000/quotes/${quoteID}`)
         .then(resp =>resp.json())
         .then(quote => setQuote(quote))
     },[])
